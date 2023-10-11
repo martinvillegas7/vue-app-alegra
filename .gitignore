@@ -6,6 +6,7 @@
 .vite
 .pnpm-store
 pnpm-lock.yaml
+.vscode
 
 ### Linux ###
 *~
