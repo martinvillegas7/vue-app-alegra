@@ -5,3 +5,5 @@ yarn.lock
 pnpm-lock.yaml
 
 .vscode
+.vite
+.pnpm-store

@@ -2,6 +2,10 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,vue,vuejs,visualstudiocode,windows,macos,linux
 
 .vite
+.vscode
+.vite
+.pnpm-store
+pnpm-lock.yaml
 
 ### Linux ###
 *~

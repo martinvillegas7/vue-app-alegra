@@ -3,16 +3,14 @@ FROM node:18
 # Set working directory
 WORKDIR /app
 
-# Install dependencies
-COPY package.json .
-RUN npm install -g pnpm
-RUN pnpm install
-
-# Copy source code
+# Copy all files
 COPY . .
+
+# Install pnpm globally
+RUN npm install -g pnpm
 
 # Expose the port
 EXPOSE 3000
 
-# Start the app
-CMD ["pnpm", "dev"]
+# Set the entrypoint
+ENTRYPOINT ["/app/entrypoint.sh"]
