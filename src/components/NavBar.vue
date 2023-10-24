@@ -1,3 +1,7 @@
+<script setup>
+import DefaultButton from './DefaultButton.vue'
+</script>
+
 <template>
     <div class="fixed w-full z-10">
         <div class="bg-custom-28b19d text-white flex items-center justify-center p-2">
@@ -32,16 +36,6 @@
                 </div>
             </div>
 
-
-
         </header>
     </div>
 </template>
-
-<script setup>
-import { computed, onMounted, ref } from 'vue';
-import DefaultButton from './DefaultButton.vue';
-
-import store from '../store';
-
-</script>

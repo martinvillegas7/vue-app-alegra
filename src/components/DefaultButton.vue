@@ -6,9 +6,7 @@
 
 <script setup>
 
-
-
-const props = defineProps({
-    href: String,
+defineProps({
+  href: String
 })
 </script>
