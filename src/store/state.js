@@ -1,3 +1,3 @@
 export default {
-    example: ["Alegra"]
+  example: ['Alegra']
 }
