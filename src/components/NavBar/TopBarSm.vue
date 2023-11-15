@@ -96,7 +96,6 @@ const props = defineProps({
 })
 
 const topBar = ref(null)
-console.log('🚀 ~ file: TopBarSm.vue:58 ~ topBar:', topBar)
 
 watch(() => props.isOpen, (newVal) => {
   if (newVal === true) { // Desactiva

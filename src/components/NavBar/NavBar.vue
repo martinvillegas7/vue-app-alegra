@@ -1,10 +1,10 @@
 <template>
-    <div class="fixed w-full z-10">
+    <div class="sticky top-0 w-full z-10 shadow-md">
         <div v-show="isOpen" class="bg-custom-28b19d text-white flex items-center justify-center p-2 text-xs lg:text-lg">
             <p>Aplicación desarrollada unicamente con fines de aprendizaje</p>
         </div>
 
-        <TopBarLg  />
+        <TopBarLg class="" />
         <TopBarSm :isOpen="isOpen" :toggleMenu="toggleMenu" />
     </div>
 </template>

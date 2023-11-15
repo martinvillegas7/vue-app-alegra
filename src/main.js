@@ -1,5 +1,5 @@
 import { OhVueIcon, addIcons } from 'oh-vue-icons'
-import { CoHamburgerMenu, IoCloseOutline, FaRegularUserCircle } from 'oh-vue-icons/icons'
+import { CoHamburgerMenu, IoCloseOutline, FaRegularUserCircle, FaChevronDown, RiGridFill, FaChevronRight } from 'oh-vue-icons/icons'
 
 import { createApp } from 'vue'
 import './style.css'
@@ -7,7 +7,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-addIcons(CoHamburgerMenu, IoCloseOutline, FaRegularUserCircle)
+addIcons(CoHamburgerMenu, IoCloseOutline, FaRegularUserCircle, FaChevronDown, RiGridFill, FaChevronRight)
 
 createApp(App)
   .use(router)
