@@ -1,8 +1,11 @@
 <template>
-    <div class="flex flex-col lg:flex lg:flex-row sm:grid p-8 sm:grid-cols-2 w-full items-center content-center">
+    <div
+        class="flex flex-col lg:flex lg:flex-row sm:grid p-8 sm:grid-cols-2 w-full items-center content-center justify-items-center">
 
-        <DefaultCard imageSrc="../../assets/vue.svg">
-            <img src="../assets/alegra.svg" alt="" class="h-8 w-8">
+        <DefaultCard>
+            <template #imageSrc>
+                <img src="../assets/caution-icon.webp" alt="">
+            </template>
             <template #title>
                 <h3>Al día con la obligatoriedad</h3>
             </template>
@@ -11,6 +14,9 @@
             </template>
         </DefaultCard>
         <DefaultCard>
+            <template #imageSrc>
+                <img src="../assets/load-to-cloud-icon.webp" alt="">
+            </template>
             <template #title>
                 <h3>Sin descargas</h3>
             </template>
@@ -19,6 +25,9 @@
             </template>
         </DefaultCard>
         <DefaultCard>
+            <template #imageSrc>
+                <img src="../assets/headphone.webp" alt="">
+            </template>
             <template #title>
                 <h3>Con soporte gratis 24/7</h3>
             </template>
@@ -27,6 +36,9 @@
             </template>
         </DefaultCard>
         <DefaultCard>
+            <template #imageSrc>
+                <img src="../assets/check-with-circle-icon-gen-2.webp" alt="">
+            </template>
             <template #title>
                 <h3>Válido ante la DIAN</h3>
             </template>
@@ -35,6 +47,7 @@
             </template>
         </DefaultCard>
     </div>
+
     <div>
         <!-- <h1>Hola mundo </h1> -->
         <h1>asdasdas</h1>

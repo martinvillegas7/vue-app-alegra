@@ -1,8 +1,10 @@
 <template>
-    <div class=" h-[100%] w-[50%] lg:w-[25%]  shadow-lg bg-white black m-4 p-4 rounded-md">
-        <img :src="imageSrc" alt="" class="h-20 w-20">
-        <!-- <v-icon :name="iconName" class="w-3 h-4 fill-black"></v-icon> -->
-        <h3 class="font-bold lexe">
+    <div class=" h-[223px] w-[250px] lg:h-[260px] lg:w-[300px]  shadow-lg bg-white black m-4 p-4 pb-0 rounded-md">
+        <div class="h-10 w-10 mb-4">
+            <slot name="imageSrc" class="h-full bg-red-800"></slot>
+
+        </div>
+        <h3 class="font-bold lexe mb-3">
             <slot name="title"></slot>
         </h3>
         <p>
