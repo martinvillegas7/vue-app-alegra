@@ -10,7 +10,7 @@ export default {
         custom: {
           '30aba9': '#30aba9',
           '2a9795': '#2a9795',
-          f5fafd: '#f5fafd',
+          'f5fafd': '#f5fafd',
           '28b19d': '#28b19d'
         }
       }

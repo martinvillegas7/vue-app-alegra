@@ -1,5 +1,5 @@
 <template>
-    <header class="h-14 bg-transparent  justify-between text-lg px-5 hidden lg:flex container  mx-auto py-2">
+    <header class="h-14 bg-transparent  justify-between text-lg px-5 hidden lg:flex container mt-2 mx-auto py-2">
         <router-link :to="{ name: 'home' }" class="py-1">
             <img src="../../assets/alegra.svg" alt="" class="h-full object-cover">
         </router-link>

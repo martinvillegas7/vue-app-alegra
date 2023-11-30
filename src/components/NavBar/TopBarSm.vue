@@ -1,12 +1,13 @@
 <template>
-  <header v-show="isOpen" class="h-12 flex bg-transparent justify-between relative text-lg px-5 lg:hidden">
+  <header v-show="isOpen" class="h-12 flex bg-transparent justify-between relative text-lg px-5 lg:hidden mt-4">
     <router-link :to="{ name: 'home' }" class="py-1">
       <img src="../../assets/alegra.svg" alt="" class="h-full object-cover">
     </router-link>
 
     <span class="h-full flex items-center justify-center gap-4 ">
-      <DefaultButton class="text-white bg-custom-30aba9 hover:bg-custom-2a9795  text-lg" @click="toggleMenu">Empieza
-        gratis</DefaultButton>
+      <DefaultButton class="text-white bg-custom-30aba9 hover:bg-custom-2a9795 w-full h-full text-sm sm:text-lg"
+        @click="toggleMenu">
+        Empieza gratis</DefaultButton>
       <v-icon @click="toggleMenu" name="co-hamburger-menu" scale="1.8" />
     </span>
   </header>

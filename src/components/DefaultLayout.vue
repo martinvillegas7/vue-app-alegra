@@ -1,5 +1,5 @@
 <template>
-  <navbar  :style="{
+  <navbar :style="{
     backgroundColor: isScrolled ? '#fff' : 'transparent',
     boxShadow: isScrolled ? '0 0 10px rgba(0,0,0,0.2)' : 'none'
   }" />
