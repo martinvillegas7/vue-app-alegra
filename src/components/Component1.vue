@@ -15,7 +15,7 @@
 
                     <slot name="text2"></slot>
                 </div>
-                <div class="flex flex-row items-center justify-center h-[20px] w-[70px]">
+                <div class="flex flex-row items-center justify-center h-[25px] w-[70px] gap-2">
                     <slot name="icon1"></slot>
                     <slot name="icon2"></slot>
                     <slot name="icon3"></slot>

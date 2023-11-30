@@ -1,5 +1,5 @@
 <template>
-    <div class="h-[75vh]">
+    <div class="h-[85vh]">
         <Component1>
             <template #title>
                 <h1>Alégrate con la única <br> <span
@@ -19,13 +19,13 @@
                 <p>Valoracion de <span class="font-bold">5</span></p>
             </template>
             <template #icon1>
-                <img src="../assets/logo-hubspot.webp" alt="">
+                <img src="../assets/logo-hubspot.webp" alt="" class="h-6 w-full">
             </template>
             <template #icon2>
-                <img src="../assets/logo-capterra.webp" alt="">
+                <img src="../assets/logo-capterra.webp" alt="" class="h-6 w-full">
             </template>
             <template #icon3>
-                <img src="../assets/logo-play-store.webp" alt="">
+                <img src="../assets/logo-play-store.webp" alt="" class="h-6 w-full">
             </template>
             <template #imageComponent1>
                 <img src="../assets/alegra-COL-Home-hero.webp" alt="" class="hidden lg:block">

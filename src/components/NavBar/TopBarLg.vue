@@ -153,7 +153,7 @@
             </div>
             <div class="flex justify-between ">
                 <DefaultButton class="mr-2 hover:bg-slate-100">Ingresa</DefaultButton>
-                <DefaultButton class="text-white bg-custom-30aba9 hover:bg-custom-2a9795  block">Empieza gratis
+                <DefaultButton class="text-black bg-custom-50eea2 hover:bg-custom-2a9795  block">Empieza gratis
                 </DefaultButton>
             </div>
         </div>

@@ -5,7 +5,7 @@
     </router-link>
 
     <span class="h-full flex items-center justify-center gap-4 ">
-      <DefaultButton class="text-white bg-custom-30aba9 hover:bg-custom-2a9795 w-full h-full text-sm sm:text-lg"
+      <DefaultButton class="text-black bg-custom-50eea2 hover:bg-custom-2a9795 w-full h-full text-sm sm:text-lg"
         @click="toggleMenu">
         Empieza gratis</DefaultButton>
       <v-icon @click="toggleMenu" name="co-hamburger-menu" scale="1.8" />
@@ -20,7 +20,7 @@
         <img src="../../assets/alegra.svg" alt="" class="h-full object-cover">
       </router-link>
       <span class="h-full flex items-center justify-center gap-4 ">
-        <DefaultButton class="text-white bg-custom-30aba9 hover:bg-custom-2a9795  text-lg" @click="toggleMenu">Empieza
+        <DefaultButton class="text-black bg-custom-50eea2 hover:bg-custom-2a9795  text-lg" @click="toggleMenu">Empieza
           gratis</DefaultButton>
         <v-icon @click="toggleMenu" name="io-close-outline" scale="1.8" />
       </span>
