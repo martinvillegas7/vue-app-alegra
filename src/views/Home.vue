@@ -1,12 +1,12 @@
 <template>
-    <div>
+    <div class="h-[75vh]">
         <Component1>
             <template #title>
                 <h1>Alégrate con la única <br> <span
                         class="bg-gradient-to-r from-custom-28b19d via-purple-500 to-blue-500 text-transparent bg-clip-text">Nómina
                         electrónica</span> <br>
                     que
-                    le da superpoderes a tu pyme</h1>
+                    le da superpoderes <br> a tu pyme</h1>
             </template>
             <template #text1>
                 <h3>Vive el poder de vender, facturar y contabilizar de <br> manera automática y desde un solo lugar.</h3>
@@ -15,7 +15,7 @@
                 <DefaultButton class=" bg-custom-2a9795 text-white border-none">Empieza tus 15 días gratis</DefaultButton>
             </template>
             <template #text2>
-                <img src="../assets/stars.svg" alt="" class="h-4">
+                <img src="../assets/stars.svg" alt="" class="h-4 lg:ml-14">
                 <p>Valoracion de <span class="font-bold">5</span></p>
             </template>
             <template #icon1>
@@ -34,7 +34,7 @@
         </Component1>
     </div>
     <div
-        class="flex flex-col lg:flex lg:flex-row sm:grid p-8 sm:grid-cols-2 w-full items-center content-center justify-items-center bg-white">
+        class="flex flex-col lg:flex lg:flex-row sm:grid p-8 sm:grid-cols-2 w-full items-center content-center justify-items-center lg:justify-evenly bg-white">
 
         <DefaultCard>
             <template #imageSrc>
