@@ -10,17 +10,18 @@
             <div class="mb-8">
                 <slot name="button"></slot>
             </div>
-            <div class="flex flex-row text-gray-500 items-center gap-2">
-                <slot name="text2"></slot>
+            <div class="flex flex-col text-gray-500 items-center">
+                <div class="flex felx-row items-center mb-6">
+
+                    <slot name="text2"></slot>
+                </div>
+                <div class="flex flex-row items-center justify-center h-[20px] w-[70px]">
+                    <slot name="icon1"></slot>
+                    <slot name="icon2"></slot>
+                    <slot name="icon3"></slot>
+                </div>
             </div>
-            <div class="mb-8">
-                <slot name="text3"></slot>
-            </div>
-            <div class="flex flex-row items-center justify-center h-[20px] w-[70px]">
-                <slot name="icon1"></slot>
-                <slot name="icon2"></slot>
-                <slot name="icon3"></slot>
-            </div>
+
         </div>
         <div class="h-full w-full p-16">
             <slot name="imageComponent1"></slot>
