@@ -81,10 +81,56 @@
             </template>
         </DefaultCard>
     </div>
+
+    <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum et veritatis sunt cumque aut, doloremque, commodi
+        quibusdam exercitationem non soluta numquam distinctio nobis consectetur maiores nesciunt labore libero dicta qui!
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum et veritatis sunt cumque aut, doloremque, commodi
+        quibusdam exercitationem non soluta numquam distinctio nobis consectetur maiores nesciunt labore libero dicta qui!
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum et veritatis sunt cumque aut, doloremque, commodi
+        quibusdam exercitationem non soluta numquam distinctio nobis consectetur maiores nesciunt labore libero dicta qui!
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum et veritatis sunt cumque aut, doloremque, commodi
+        quibusdam exercitationem non soluta numquam distinctio nobis consectetur maiores nesciunt labore libero dicta qui!
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum et veritatis sunt cumque aut, doloremque, commodi
+        quibusdam exercitationem non soluta numquam distinctio nobis consectetur maiores nesciunt labore libero dicta qui!
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum et veritatis sunt cumque aut, doloremque, commodi
+        quibusdam exercitationem non soluta numquam distinctio nobis consectetur maiores nesciunt labore libero dicta qui!
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum et veritatis sunt cumque aut, doloremque, commodi
+        quibusdam exercitationem non soluta numquam distinctio nobis consectetur maiores nesciunt labore libero dicta qui!
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum et veritatis sunt cumque aut, doloremque, commodi
+        quibusdam exercitationem non soluta numquam distinctio nobis consectetur maiores nesciunt labore libero dicta qui!
+    </div>
+
+    <div class="goHome">
+        <button :onClick="goHome">hola</button>
+    </div>
+
+    <div id="whatsapp-button" @click="goHome" class="fixed bottom-4 right-4 cursor-pointer">
+        <v-icon name="md-whatsapp" fill="white" class="w-16 p-2 h-auto bg-green-600 rounded-3xl"></v-icon>
+    </div>
 </template>
 
 <script setup>
 import DefaultCard from '../components/DefaultCard.vue';
 import Component1 from '../components/Component1.vue';
 import DefaultButton from '../components/DefaultButton.vue';
+
+const goHome = () => {
+    window.scrollTo(0, 0);
+}
+
 </script>
